@@ -57,10 +57,10 @@
         Bump from Java 7 to 8.
       </action>
       <action issue="EMAIL-183" type="update" due-to="Lukas Petrovicky, gitmotte, Dependabot, Gary Gregory">
-        Bump javax.mail:1.6.1 to jakarta.mail:1.6.7.
+        Bump jakarta.mail:1.6.1 to jakarta.mail:1.6.7.
       </action>
       <action issue="EMAIL-174" type="fix" due-to="Vegard Stuen">
-        Bump javax.mail dependency to 1.6.1, so that i18n is supported for email addresses.
+        Bump jakarta.mail dependency to 1.6.1, so that i18n is supported for email addresses.
       </action>
       <action type="update" due-to="Gary Gregory, Dependabot" dev="ggregory">
         Bump commons-parent from 50 to 56, #118, #128.
@@ -112,10 +112,10 @@
         DataSourceClassPathResolver doesn't close InputStream when resolving resources
       </action>
       <action dev="sgoeschl" type="update" issue="EMAIL-165" date="2017-01-02">
-        Upgrade to javax.mail-1.5.6
+        Upgrade to jakarta.mail-1.5.6
       </action>
       <action dev="sgoeschl" type="update" issue="EMAIL-161" date="2016-02-01">
-        Remove "javax.activation" dependency since it is included in JDK 1.6 and update to javax.mail-1.5.5
+        Remove "jakarta.activation" dependency since it is included in JDK 1.6 and update to jakarta.mail-1.5.5
       </action>
       <action dev="sgoeschl" type="add" issue="EMAIL-160" date="2016-02-01">
         Add Support for International Domain Names. This change requires JDK 1.6+.
@@ -483,7 +483,7 @@
         into it.
       </action>
       <action dev="epugh" type="add" issue="EMAIL-8">
-        Can't supply a javax.mail.Session to Commons Email component
+        Can't supply a jakarta.mail.Session to Commons Email component
       </action>
       <action dev="epugh" type="add" issue="EMAIL-23" due-to="Corey Scott">
         HTML email with plain text alternative and attachments

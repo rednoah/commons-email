@@ -40,7 +40,7 @@ CHANGES FROM 1.4:
 
   <dependency>
     <groupId>com.sun.mail</groupId>
-    <artifactId>javax.mail</artifactId>
+    <artifactId>jakarta.mail</artifactId>
     <version>1.5.6</version>
   </dependency>
 
@@ -57,7 +57,7 @@ Issue: EMAIL-154. Thanks to Ken Geis, Balachandran Sivakumar
 * Update Oracle JavaMail dependency from 1.5.2 to 1.5.6.
   Issue: EMAIL-165.
 
-* Remove "javax.activation" dependency since it is included in JDK 1.6
+* Remove "jakarta.activation" dependency since it is included in JDK 1.6
   Issue: EMAIL-161.
 
 == Fixed Bugs ==
@@ -80,7 +80,7 @@ CHANGES FROM 1.3.3:
 
   <dependency>
     <groupId>com.sun.mail</groupId>
-    <artifactId>javax.mail</artifactId>
+    <artifactId>jakarta.mail</artifactId>
     <version>1.5.2</version>
   </dependency>
 
